@@ -1,6 +1,3 @@
-//Calculadora Sencilla
-// // Objetivo: practicar formularios, eventos y lógica básica en JavaScript.
-
 import { useState, useRef } from "react";
 import Layout from "../components/Layout";
 

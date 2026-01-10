@@ -7,6 +7,8 @@ import Jsx_ejercicio_2 from "./pages/Jsx_ejercicio_2";
 import Jsx_ejercicio_3 from "./pages/Jsx_ejercicio_3";
 import Jsx_ejercicio_4 from "./pages/Jsx_ejercicio_4";
 import Jsx_ejercicio_5 from "./pages/Jsx_ejercicio_5";
+import Jsx_ejercicio_6 from "./pages/Jsx_ejercicio_6";
+
 
 const EJERCICIOS = [
   { id: 1, titulo: "Cambiador de Color de Fondo"},
@@ -50,6 +52,7 @@ export default function App() {
       <Route path="/ejercicio/3" element={< Jsx_ejercicio_3 />} />
       <Route path="/ejercicio/4" element={< Jsx_ejercicio_4 />} />
       <Route path="/ejercicio/5" element={< Jsx_ejercicio_5 />} />
+      <Route path="/ejercicio/6" element={< Jsx_ejercicio_6 />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
