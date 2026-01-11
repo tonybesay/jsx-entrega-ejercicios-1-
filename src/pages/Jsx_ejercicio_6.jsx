@@ -1,18 +1,17 @@
-// 6. Temporizador con Inicio, Pausa y Reinicio
-// Objetivo del ejercicio: Practicar manejo de eventos, funciones de temporización y manipulación del DOM.
-// Ejercicio:
-// Crea una página con un temporizador que comience en 00:00:00. Incluye tres botones: “Iniciar”, “Pausar” y “Reiniciar”
-// Al hacer clic en “Iniciar”, el temporizador debe comenzar a contar los segundos, minutos y horas.
-// “Pausar” detiene el conteo pero mantiene el tiempo actual.
-// “Reiniciar” pone el temporizador en 00:00:00.
-
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Layout from "../components/Layout";
 
 export default function Jsx_ejercicio_6(){
     const [segundos, setSegundos] = useState(0)
     const intervalRef = useRef(null)
     
+    useEffect(() => {
+        return () => {
+            if (intervalRef.current !== null) {
+                clearInterval(intervalRef.current)
+            }
+        }
+    }, [])
  
     function startTimer(){
         if(intervalRef.current !== null) return

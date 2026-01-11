@@ -8,6 +8,7 @@ import Jsx_ejercicio_3 from "./pages/Jsx_ejercicio_3";
 import Jsx_ejercicio_4 from "./pages/Jsx_ejercicio_4";
 import Jsx_ejercicio_5 from "./pages/Jsx_ejercicio_5";
 import Jsx_ejercicio_6 from "./pages/Jsx_ejercicio_6";
+import Jsx_ejercicio_7 from "./pages/Jsx_ejercicio_7";
 
 
 const EJERCICIOS = [
@@ -53,6 +54,7 @@ export default function App() {
       <Route path="/ejercicio/4" element={< Jsx_ejercicio_4 />} />
       <Route path="/ejercicio/5" element={< Jsx_ejercicio_5 />} />
       <Route path="/ejercicio/6" element={< Jsx_ejercicio_6 />} />
+      <Route path="/ejercicio/7" element={< Jsx_ejercicio_7 />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   )
