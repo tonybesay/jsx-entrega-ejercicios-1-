@@ -86,7 +86,7 @@ src/
 - Cada ejercicio se ha desarrollado de forma incremental y con commits separados.
 - Se ha priorizado código claro, legible y buenas prácticas frente a complejidad innecesaria.
 
-##👨‍💻 Autor
+## 👨‍💻 Autor
 
 Antonio Besay Mendoza
 - 📧 Email: tonybesay@gmail.com
