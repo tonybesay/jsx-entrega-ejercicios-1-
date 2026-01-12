@@ -5,6 +5,11 @@ Proyecto de ejercicios prácticos desarrollado con **React JS** como parte del
 
 El objetivo de este repositorio es reforzar los conceptos fundamentales de React mediante ejercicios progresivos, aplicando buenas prácticas, gestión de estado, efectos, rutas y persistencia de datos.
 
+## 🌍 Demo
+
+Proyecto desplegado en GitHub Pages:  
+👉 https://tonybesay.github.io/react-js-entrega-ejercicios-1/
+
 ---
 
 ## 🚀 Tecnologías utilizadas
