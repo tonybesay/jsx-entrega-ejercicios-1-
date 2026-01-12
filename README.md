@@ -1,16 +1,90 @@
-# React + Vite
+# React JS – Entrega de Ejercicios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto de ejercicios prácticos desarrollado con **React JS** como parte del  
+**Máster en Desarrollo Full Stack – Conquer Blocks**.
 
-Currently, two official plugins are available:
+El objetivo de este repositorio es reforzar los conceptos fundamentales de React mediante ejercicios progresivos, aplicando buenas prácticas, gestión de estado, efectos, rutas y persistencia de datos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React JS**
+- **Vite**
+- **JavaScript (ES6+)**
+- **React Router**
+- **Tailwind CSS**
+- **HTML5 / CSS3**
+- **LocalStorage**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estructura del proyecto
+
+```text
+src/
+├── components/        # Componentes reutilizables
+├── pages/             # Ejercicios individuales
+│   ├── Jsx_ejercicio_1.jsx
+│   ├── Jsx_ejercicio_2.jsx
+│   ├── …
+│   └── Jsx_ejercicio_9.jsx
+├── App.jsx            # Configuración de rutas
+├── main.jsx           # Punto de entrada
+└── index.css          # Estilos globales (Tailwind)
+```
+---
+
+## 📚 Ejercicios incluidos
+
+1. **Cambiador de color de fondo**
+2. **Contador de clicks**
+3. **Lista dinámica**
+4. **Filtro de búsqueda en tiempo real**
+5. **Calculadora sencilla**
+6. **Temporizador (inicio, pausa y reinicio)**
+7. **Generador de contraseñas aleatorias**
+8. **Contador de palabras y caracteres**
+9. **Lista de tareas con LocalStorage**
+   - Marcar tareas como completadas
+   - Eliminar tareas
+   - Limpiar tareas completadas
+   - Persistencia entre recargas
+
+---
+
+## 🧠 Conceptos de React aplicados
+
+- Componentes funcionales
+- `useState` para gestión de estado
+- `useEffect` para efectos y sincronización
+- `useRef` para acceso al DOM
+- Renderizado condicional
+- Listas y claves (`key`)
+- Formularios controlados
+- Persistencia con `localStorage`
+- Enrutado con **React Router**
+
+---
+
+## ▶️ Instalación y ejecución
+
+1. Clonar el repositorio:
+```bash
+   git clone https://github.com/tu-usuario/react-js-entrega-ejercicios-1.git
+   npm install
+   npm run dev
+```
+
+## 📝 Notas
+- El proyecto está enfocado al aprendizaje y práctica de React.
+- Cada ejercicio se ha desarrollado de forma incremental y con commits separados.
+- Se ha priorizado código claro, legible y buenas prácticas frente a complejidad innecesaria.
+
+##👨‍💻 Autor
+
+Antonio Besay Mendoza
+- 📧 Email: tonybesay@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/antonio-besay-mendoza-hern%C3%A1ndez-83304564/
+- 🐙 GitHub: https://github.com/tonybesay
+
